@@ -1,0 +1,28 @@
+.container 
+{
+    text-align: center;
+}
+
+h1 
+{
+    color: #0000FF; /* 蓝色文字 */
+    font-size: 48px;
+    margin: 0;
+}
+
+button
+{
+    width: 60px;/*左右扁形圆圈*/
+    height: 60px;/*上下形圆圈*/
+    font-size: 20px;/*字体大小*/
+    color: white;/*字体颜色*/
+    background-color: #15e9d7;/*内圈颜色*/
+    border: 2px solid #0000FF;/*外圈颜色*/
+    border-radius: 100%; /*大小圆圈*/
+    cursor: pointer;
+    transition: background-color 0.3s ease;    
+    position: fixed; /* 固定位置 */
+    
+    top: 30px; /* 距离顶部20px */
+    left: 1400px; /* 距离左边20px */
+}

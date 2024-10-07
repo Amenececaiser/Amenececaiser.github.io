@@ -1,0 +1,176 @@
+/*button*/
+.bn1000 
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 1rem;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+}
+  
+/*Inicio1*/
+.bn1 
+{
+    border-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+}
+    
+.bn1:hover 
+{
+    background-color: #60605e;
+    background-size: 100px;
+}
+
+.position001 
+{
+    position: relative;
+    top:  -320px; /* 向下移动 */
+    left: 110px; /* 向右移动 */
+}
+
+/*Clientes*/
+.bn2 
+{
+    border-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+}
+    
+.bn2:hover 
+{
+    background-color: #ff0000;
+    background-size: 100px;
+}
+
+.position002 
+{
+    position: relative;
+    top:  -320px; /* 向下移动 */
+    left: 110px; /* 向右移动 */
+}
+
+/*Ordenes*/
+.bn3 
+{
+    border-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+}
+    
+.bn3:hover 
+{
+    background-color: #ff0000;
+    background-size: 100px;
+}
+
+.position003 
+{
+    position: relative;
+    top:  -320px; /* 向下移动 */
+    left: 110px; /* 向右移动 */
+}
+
+/*Caja*/
+.bn4 
+{
+    border-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+}
+    
+.bn4:hover 
+{
+    background-color: #60605e;
+    background-size: 100px;
+}
+
+.position004 
+{
+    position: relative;
+    top:  -320px; /* 向下移动 */
+    left: 110px; /* 向右移动 */
+}
+
+/*Ventas*/
+.bn5 
+{
+    border-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+}
+    
+.bn5:hover 
+{
+    background-color: #60605e;
+    background-size: 100px;
+}
+
+.position005 
+{
+    position: relative;
+    top:  -320px; /* 向下移动 */
+    left: 110px; /* 向右移动 */
+}
+
+/*Inventario*/
+.bn6 
+{
+    border-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+}
+    
+.bn6:hover 
+{
+    background-color: #60605e;
+    background-size: 100px;
+}
+
+.position006 
+{
+    position: relative;
+    top:  -320px; /* 向下移动 */
+    left: 110px; /* 向右移动 */
+}
+
+/*clientes*/
+.bn7 
+{
+    border-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+}
+    
+.bn7:hover 
+{
+    background-color: #60605e;
+    background-size: 100px;
+}
+
+.position007 
+{
+    position: relative;
+    top:  -320px; /* 向下移动 */
+    left: 110px; /* 向右移动 */
+}
+
+/*Usuarios*/
+.bn8 
+{
+    border-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+}
+    
+.bn8:hover 
+{
+    background-color: #60605e;
+    background-size: 100px;
+}
+
+.position008 
+{
+    position: relative;
+    top:  -320px; /* 向下移动 */
+    left: 110px; /* 向右移动 */
+}
