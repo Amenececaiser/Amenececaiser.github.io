@@ -30,10 +30,23 @@ body
     width: 300px;
 }
 
-h1 {
+
+
+
+h1 
+{
     text-align: center;
     margin-bottom: 24px;
 }
+
+h2
+{
+    text-align: center;
+    margin-bottom: 24px;
+    top: 10px;         /* 距离顶部 50px */
+    left: 120px;       /* 距离左侧 100px */
+}
+
 
 .input-group {
     margin-bottom: 15px;
@@ -66,7 +79,7 @@ button:hover {
     margin-top: 10px;
     display: none;
 }
-
+/*
 button2 
 {
     display: inline-flex;
@@ -87,6 +100,45 @@ button2:hover
 {
     background-color: #60605e;
     background-size: 100px;  
+
+}
+*/
+
+/*Inicio boton falso*/
+.bn1000 
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 1rem;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+}
+
+.bn1 
+{
+    border-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+}
+    
+.bn1:hover 
+{
+    background-color: #0ca6ff;
+    background-size: 100px;
+}
+
+.position001 
+{
+    position: relative;
+    top:  -365px; /* 向下移动 */
+    left: 240px; /* 向右移动 */
 }
 
 /*loginpage*/
+

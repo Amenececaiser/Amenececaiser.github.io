@@ -15,7 +15,7 @@ function handleLogin(event) {
     } else {
         // 显示错误信息
         const errorMessage = document.getElementById('error');
-        errorMessage.textContent = "Invalid username or password!";
+        errorMessage.textContent = "用户或密码有误 Usuario o contraseña incorrecta";
         errorMessage.style.display = "block";
     }
 }
