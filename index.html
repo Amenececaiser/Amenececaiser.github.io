@@ -3,30 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dodcm</title>
-    <!--link-->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/button.css">
-    <script src="js/script.js">herf</script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/firmshandler.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/loginstyles.css"> <!-- 链接CSS -->
 </head>
 <body>
-    <div class="container">
-        <h100>worlspace</h100>
-        <button>buts</button>
-        <a href="/" class="bn1000 bn1 position001">Inicio</a>
-        <a href="/" class="bn1000 bn2 position002">Clientes</a>
-        <a href="/" class="bn1000 bn3 position003">Ordenes</a>
-        <a href="/" class="bn1000 bn4 position004">caja</a>
-        <a href="/" class="bn1000 bn5 position005">ventas</a>
-        <a href="/" class="bn1000 bn6 position006">Inventario</a>
-        <a href="/" class="bn1000 bn7 position007">Clientes</a>
-        <a href="/" class="bn1000 bn8 position008">Usuarios</a>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form id="loginForm" onsubmit="return handleLogin(event)">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p id="error" class="error-message"></p>
+        <button2 ttew2 >Inicio</button2 ttew2 >
     </div>
-
+    <script src="js/script.js"></script> <!-- 链接JavaScript -->
 </body>
+<body1>
+    
+</body1>
 </html>

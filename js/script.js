@@ -11,7 +11,7 @@ function handleLogin(event) {
 
     if (username === validUsername && password === validPassword) {
         // 登录成功，跳转到主页
-        window.location.href = "index.html";
+        window.location.href = "home.html";
     } else {
         // 显示错误信息
         const errorMessage = document.getElementById('error');

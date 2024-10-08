@@ -1,7 +1,8 @@
 /*loginpage*/
-body {
+body 
+{
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,8 +10,20 @@ body {
     margin: 0;
 }
 
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a8b1b4; /* 天空蓝背景色 */
+}
+
 .login-container {
-    background-color: white;
+    background-color: rgb(243, 240, 240);
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -53,4 +66,27 @@ button:hover {
     margin-top: 10px;
     display: none;
 }
+
+button2 
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 1rem;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+}
+
+button2:hover 
+{
+    background-color: #60605e;
+    background-size: 100px;  
+}
+
 /*loginpage*/
